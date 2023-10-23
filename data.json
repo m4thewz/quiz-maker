@@ -1,0 +1,1314 @@
+[
+  {
+    "titulo": "Você é flamenguista?",
+    "autor": "Felipe Mantuani",
+    "descricao": "Você é modinha ou raíz?",
+    "perguntas": [
+      {
+        "pergunta": "Quantos títulos Flamengo ganhou em 2019?",
+        "alternativas": [
+          "2",
+          "3",
+          "5",
+          "1"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual título Flamengo ganhou em 2013?",
+        "alternativas": [
+          "Copa do Brasil",
+          "Libertadores",
+          "Brasileirão",
+          "Nenhum"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  {
+    "titulo": "Você é fã dos Jovens Titãs?",
+    "autor": "Maria Rita",
+    "descricao": "Teste seus conhecimentos sobre os Jovens Titãs",
+    "perguntas": [
+      {
+        "pergunta": "Em que ano o desenho foi lançado?",
+        "alternativas": [
+          "2003",
+          "2000",
+          "2001",
+          "2002"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual é o nome do shipp do Mutano e da Ravena?",
+        "alternativas": [
+          "RavenBB",
+          "BBRae",
+          "Ravano",
+          "BBRaven"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual dos personagens é conhecido por seu grito 'Azarath Metrion Zinthos'?",
+        "alternativas": [
+          "Mutano",
+          "Estelar",
+          "Ravena",
+          "Jinx"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "O episódio 'A Profecia' é de qual temporada?",
+        "alternativas": [
+          "Terceira temporada",
+          "Primeira temporada",
+          "Sexta temporada",
+          "Quarta temporada"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Quem é o vilão principal dos Jovens Titans?",
+        "alternativas": [
+          "Slade",
+          "Terra",
+          "Titans do Oeste",
+          "Quinteto Mortal"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual é o poder principal de Ravena?",
+        "alternativas": [
+          "Controle de gelo",
+          "Levitação",
+          "Telecinese",
+          "Invisibilidade"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quem é o líder do time?",
+        "alternativas": [
+          "Abelha",
+          "Kid Flash",
+          "Ciborgue",
+          "Robin"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Qual é o verdadeiro nome do Mutano?",
+        "alternativas": [
+          "Menino-Fera",
+          "Victor Stone",
+          "Dick Grayson",
+          "Garfield Logan"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Qual é o nome da cidade onde os Jovens Titãs operam?",
+        "alternativas": [
+          "Gotham City",
+          "Jump City",
+          "Central City",
+          "Star City"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "O desenho foi cancelado em qual temporada?",
+        "alternativas": [
+          "Sétima temporada",
+          "Quinta Temporada",
+          "Sexta temporada",
+          "Oitava temporada"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  {
+    "titulo": "Você é fã da Taylor Swift?",
+    "autor": "Matheus Vitor",
+    "descricao": "Teste seus conhecimentos sobre a diva pop da atualidade",
+    "perguntas": [
+      {
+        "pergunta": "Quantos anos a Taylor Swift tem?",
+        "alternativas": [
+          "30 anos",
+          "31 anos",
+          "33 anos",
+          "28 anos"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual é o nome da cantora brasileira que a Taylor tem feat?",
+        "alternativas": [
+          "Paula Fernandes",
+          "Marisa Monte",
+          "Pitty",
+          "Slipmami"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "O álbum “Folklore” foi lançado em que ano?",
+        "alternativas": [
+          "2019",
+          "2023",
+          "2020",
+          "2021"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "A cantora possui 3 gatos, quais são os nomes deles?",
+        "alternativas": [
+          "Kian Ye, Diana Benson e Sam Button",
+          "Popcorn, Tobias e Jasmine",
+          "Olivia Benson, Meredith Grey e Benjamin Button",
+          "Garfield, Lady Logan e Mary Star"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Por que a cantora está regravando seus álbuns musicais de antes de 2019?",
+        "alternativas": [
+          "Porque ela quer experimentar diferentes estilos musicais",
+          "Porque ela quer lançar versões remasterizadas de suas músicas",
+          "Porque ela quer recuperar os direitos autorais de suas gravações originais",
+          "Porque ela quer criar novas capas de álbuns"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual é a música de Taylor Swift que fala sobre sua relação com Kanye West?",
+        "alternativas": [
+          "Look What You Made Me Do",
+          "Bad Blood",
+          "Blank Space",
+          "You Need To Calm Down"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Quantos álbuns a Taylor Swift já lançou?",
+        "alternativas": [
+          "Nove álbuns",
+          "Cinco álbuns",
+          "Dez álbuns",
+          "Sete álbuns"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quantos segundos tem a intro de Last Kiss?",
+        "alternativas": [
+          "25 segundos",
+          "12 segundos",
+          "23 segundos",
+          "27 segundos"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Qual é o nome da música que a Taylor escreveu para o Taylor Lautner?",
+        "alternativas": [
+          "Shake It Off",
+          "Back To December",
+          "Last Kiss",
+          "Fearless"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Quantos Grammys a cantora ganhou até 2023?",
+        "alternativas": [
+          "Doze Grammys",
+          "Sete Grammys",
+          "Onze Grammys",
+          "Cinco Grammys"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  {
+    "titulo": "Você sabe o básico de TI?",
+    "autor": "Maria Rita",
+    "descricao": "Teste seus conhecimentos sobre a diva pop da atualidade",
+    "perguntas": [
+      {
+        "pergunta": "O que é um hardware?",
+        "alternativas": [
+          "Parte física do computador",
+          "Todas aplicações presentes no computador",
+          "Windows",
+          "IOS"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "O que é um Software?",
+        "alternativas": [
+          "Parte física do computador",
+          "Todas aplicações presentes no computador",
+          "Windows",
+          "IOS"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual dessas alternativas é o nome de Sistema Operacional da Microsoft",
+        "alternativas": [
+          "Arch Linux",
+          "FedoraOS",
+          "Windows",
+          "Linux Mint",
+          "Mac OS"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "O que é um vírus de computador?",
+        "alternativas": [
+          "Um tipo de computador superpoderoso",
+          "Um programa de proteção contra malware",
+          "Um software malicioso que pode se reproduzir e infectar outros computadores",
+          "Um tipo de teclado"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "O que é um IP (Internet Protocol) em termos de redes de computadores?",
+        "alternativas": [
+          "Um endereço físico atribuído a um dispositivo",
+          "Um protocolo de segurança",
+          "Um tipo de servidor de e-mail",
+          "Um protocolo de comunicação para a Internet"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Qual é a função de um roteador em uma rede de computadores?",
+        "alternativas": [
+          "Armazenar arquivos",
+          "Conectar dispositivos sem fio",
+          "Encaminhar pacotes de dados entre redes",
+          "Compactar arquivos"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual é a diferença entre HTTP e HTTPS em uma URL?",
+        "alternativas": [
+          "HTTPS é uma versão segura de HTTP que utiliza criptografia para proteger a comunicação entre o navegador e o servidor",
+          "Não há diferença, ambos os termos significam a mesma coisa",
+          "HTTP é mais seguro do que HTTPS",
+          "HTTP é usado apenas para sites de comércio eletrônico"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "O que é um arquivo de extensão '.pdf' usado para?",
+        "alternativas": [
+          "Vídeos",
+          "Documentos eletrônicos portáteis",
+          "Imagens",
+          "Música"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "O que significa a sigla 'CPU'?",
+        "alternativas": [
+          "Central Program Unit",
+          "Computer Personal Unit",
+          "Central Printer Unit",
+          "Central Processing Unit"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "O que é um cookie em termos de navegação na web?",
+        "alternativas": [
+          "Um pequeno arquivo de texto armazenado no navegador que contém informações sobre a atividade do usuário em um site",
+          "Um tipo de biscoito virtual",
+          "Um tipo de plug-in de navegador",
+          "Um vírus de computador"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  {
+    "titulo": "Você é um 'marvete'?",
+    "autor": "Maria Rita",
+    "descricao": "Responda às perguntas e veja quão fã da Marvel você é:",
+    "perguntas": [
+      {
+        "pergunta": "Qual é o nome do cientista que se transforma no Hulk?",
+        "alternativas": [
+          "Bruce Banner",
+          "Tony Stark",
+          "Peter Parker",
+          "Steve Rogers"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Em que ano foi lançada a primeira edição dos quadrinhos do Homem-Aranha, criada por Stan Lee e Steve Ditko?",
+        "alternativas": [
+          "1956",
+          "1975",
+          "1962",
+          "1960"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quem é considerado o ser mais poderoso no universo Marvel?",
+        "alternativas": [
+          "Thanos",
+          "O Tribunal Vivo",
+          "Galactus",
+          "O Vigia"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Quantos membros fundadores havia na formação original dos X-Men?",
+        "alternativas": [
+          "Dois membros",
+          "Cinco membros",
+          "Sete membros",
+          "Três membros"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual é o nome do grupo de super-heróis mutantes liderado pelo Professor Xavier?",
+        "alternativas": [
+          "X-Force",
+          "X-Factor",
+          "X-Men",
+          "X-23"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Demolidor é um super-herói cego da Marvel, mas qual é o seu nome verdadeiro?",
+        "alternativas": [
+          "Frank Castle",
+          "Luke Cage",
+          "Danny Rand",
+          "Matt Murdock"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Quem é o arqui-inimigo do Homem-Aranha?",
+        "alternativas": [
+          "Doutor Octopus",
+          "Duende Verde",
+          "Veneno",
+          "Rei do Crime"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Quantos membros faziam parte dos Vingadores Originais?",
+        "alternativas": [
+          "Cinco membros",
+          "Quatro membros",
+          "Sete membros",
+          "Oito membros"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual é o nome da inteligência artificial que ajuda o Homem de Ferro, Tony Stark?",
+        "alternativas": [
+          "Ultron",
+          "Skynet",
+          "HAL 9000",
+          "Jarvis"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Nick Fury é diretor de qual organização de espionagem e inteligência?",
+        "alternativas": [
+          "AIM",
+          "SWORD",
+          "SHIELD",
+          "HYDRA"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  {
+    "titulo": "Você conhece culinária do Brasil?",
+    "autor": "Maria Rita",
+    "descricao": "Responda às perguntas e veja se você conhece a culinária de seu país:",
+    "perguntas": [
+      {
+        "pergunta": "Qual é o nome do prato brasileiro feito com peixe cozido em um molho de leite de coco, azeite de dendê, pimenta e temperos?",
+        "alternativas": [
+          "Acarajé",
+          "Moqueca",
+          " Feijoada",
+          "Vatapá"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "O que é o 'acarajé' na culinária brasileira?",
+        "alternativas": [
+          "Um tipo de massa recheada com queijo",
+          "Uma bolinha frita de feijão-fradinho",
+          "Um pastel frito recheado com carne",
+          "Um tipo de bolo de milho"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Pão de Queijo é uma comida típica de qual estado brasileiro?",
+        "alternativas": [
+          "Minas Gerais",
+          "Piauí",
+          "Rio de Janeiro",
+          "Rondônia"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual é a bebida tradicional da culinária brasileira, feita a partir da extração do suco de cana-de-açúcar?",
+        "alternativas": [
+          "Cerveja",
+          "Café",
+          "Água de coco",
+          " Caipirinha"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Qual prato brasileiro é feito a partir de pedaços de carne bovina, geralmente servido em espetos e acompanhado por farofa e molho à base de vinagrete?",
+        "alternativas": [
+          "Acarajé",
+          "Moqueca",
+          "Churrasco",
+          "Vatapá"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "O que é 'coxinha' na culinária brasileira?",
+        "alternativas": [
+          "Um tipo de pão doce recheado com goiabada",
+          "Um tipo de doce frito recheado de chocolate",
+          "Um salgado feito de massa de batata recheada com carne de frango",
+          "Uma sobremesa à base de creme de leite condensado e chocolate"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual é o nome do prato brasileiro que consiste em um tipo de carne seca desfiada com farinha de mandioca, geralmente acompanhado de feijão verde?",
+        "alternativas": [
+          "Carne de Sol",
+          "Feijoada",
+          "Vaca Atolada",
+          "Baião de Dois"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "O que é 'cuscuz' na culinária brasileira?",
+        "alternativas": [
+          "Um prato à base de carne de porco e feijão",
+          "Um doce feito de açúcar e leite condensado",
+          "Um prato de semolina cozido a vapor, geralmente servido com manteiga ou molho",
+          "Um tipo de pão recheado com queijo"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual é o nome da carne de porco frita e temperada, muito apreciada na culinária do Centro-Oeste?",
+        "alternativas": [
+          "Torresmo",
+          "Costela",
+          "Carne-seca",
+          "Linguiça"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "O que é 'churrasco gaúcho,' uma especialidade da culinária do Sul do Brasil?",
+        "alternativas": [
+          "Uma sopa de legumes",
+          "Um tipo de torta doce",
+          "Um prato de peixe assado",
+          "Um método de preparar carnes na grelha"
+        ],
+        "correta": 3
+      }
+    ]
+  },
+  {
+    "titulo": "Você é fã de Jujutsu Kaisen?",
+    "autor": "Matheus Vitor",
+    "descricao": "Responda às perguntas e veja se você conhece JJK:",
+    "perguntas": [
+      {
+        "pergunta": "Qual é o nome do personagem principal de 'Jujutsu Kaisen'?",
+        "alternativas": [
+          "Megumi Fushiguro",
+          "Satoru Gojo",
+          "Yuji Itadori",
+          "Nobara Kugisaki"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quem mata Toji Fushiguro?",
+        "alternativas": [
+          "Kento Nanami",
+          "Satoru Gojo",
+          "Ryomen Sukuna",
+          "Yuji Itadori"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Como os feiticeiros combatem maldições?",
+        "alternativas": [
+          "Usando técnicas almadiçoadas",
+          "Usando amuletos protetores",
+          "Usando técnicas de artes marciais",
+          "Usando armas de fogo"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Quem Sukuna matou no Cap 236?",
+        "alternativas": [
+          "Kento Nanami",
+          "Masamichi Yaga",
+          "Suguru Geto",
+          "Satoru Gojo"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Qual é a técnica inata de Megumi Fushiguro?",
+        "alternativas": [
+          "Manipulação de Sangue",
+          "Técnica das Dez Sombra",
+          "Ilimitado",
+          "Transfiguração Ociosa"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual o nome da técnica inata de Toge Inumaki?",
+        "alternativas": [
+          "Gritos amaldiçoados",
+          "Fala amaldiçoada",
+          "Sons da morte",
+          "Silêncio eterno"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Quem é considerado o feiticeiro mais poderoso em 'Jujutsu Kaisen'?",
+        "alternativas": [
+          "Satoru Gojo",
+          "Kento Nanami",
+          "Nobara Kugisaki",
+          "Toge Inumaki"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Em que capítulo Yuji Itadori se torna oficialmente um estudante da Escola Técnica de Jujutsu?",
+        "alternativas": [
+          "Capítulo 7",
+          "Capítulo 15",
+          "Capítulo 20",
+          "Capítulo 10"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Qual é o nome do panda que é um dos feiticeiros da Escola Técnica de Jujutsu?",
+        "alternativas": [
+          "Jogo de Maldições",
+          "Maki Zenin",
+          "Toge Inumaki",
+          "Panda"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Em que capítulo Gojo Satoru revela a sua 'Técnica dos Seis Olhos'?",
+        "alternativas": [
+          "Capítulo 50",
+          "Capítulo 40",
+          "Capítulo 60",
+          "Capítulo 30"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  {
+    "titulo": "Você é bom em História?",
+    "autor": "Maria Rita",
+    "descricao": "Teste seus conhecimentos sobre alguns fatos históricos importantes:",
+    "perguntas": [
+      {
+        "pergunta": "Em que ano a Primeira Guerra Mundial começou?",
+        "alternativas": [
+          "1914",
+          "1920",
+          "1919",
+          "1913"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Quem foi o primeiro presidente do Brasil após a proclamação da República em 1889?",
+        "alternativas": [
+          "Pedro II",
+          "Dom João VI",
+          "Marechal Deodoro da Fonseca",
+          "Getúlio Vargas"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quem foi o líder da Revolução Cubana?",
+        "alternativas": [
+          "Ernesto 'Che' Guevara",
+          "Raul Castro",
+          "Camilo Cienfuegos",
+          "Fidel Castro"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Em que ano ocorreu a Revolução Francesa?",
+        "alternativas": [
+          "1789",
+          "1804",
+          "1976",
+          "1872"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual dos seguintes eventos marcou o início da Era Vargas?",
+        "alternativas": [
+          "Proclamação da República",
+          "Revolução Constitucionalista",
+          "Revolta da Vacina",
+          "Golpe Militar"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual nação apoiou o regime de Fidel Castro durante a Guerra Fria?",
+        "alternativas": [
+          "China",
+          "França",
+          "União Soviética",
+          "EUA"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Em que ano a Muralha da China foi construída?",
+        "alternativas": [
+          "221 a.C.",
+          "800 d.C.",
+          "1100 d.C.",
+          "400 a.C."
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Em que ano ocorreu o suicídio de Getúlio Vargas",
+        "alternativas": [
+          "1953",
+          "1954",
+          "1960",
+          "1961"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual sistema político predominou durante a Idade Média na Europa?",
+        "alternativas": [
+          "Comunismo",
+          "Capitalismo",
+          "Feudalismo",
+          "Socialismo"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quando ocorreu a 'Queda da Bolsa de Nova York' que desencadeou a Grande Depressão?",
+        "alternativas": [
+          "1932",
+          "1940",
+          "1926",
+          "1930"
+        ],
+        "correta": 3
+      }
+    ]
+  },
+  {
+    "titulo": "Quão fã de The Office você é?",
+    "autor": "Maria Rita",
+    "descricao": "Teste seus conhecimentos sobre a série 'The Office':",
+    "perguntas": [
+      {
+        "pergunta": "Em que ano a série estreou?",
+        "alternativas": [
+          "2010",
+          "2003",
+          "2005",
+          "2012"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual é o nome do local de trabalho onde a maior parte da série se passa?",
+        "alternativas": [
+          "Dunder Mifflin Scranton",
+          "Wernham Hogg",
+          "Scranton Business Park",
+          "The Office Building"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "O que acontece no episódio 'Niagara'?",
+        "alternativas": [
+          "Meredith é atropelada bêbada",
+          "Morte do gato da Ângela",
+          "Saída de Michael Scott",
+          "Casamento da Pam e do Jim"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Qual é o nome do personagem interpretado por Steve Carell?",
+        "alternativas": [
+          "Jim Halpert",
+          "Michael Scott",
+          "Pam Beesly",
+          "Dwight Schrute"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual é a bebida favorita de Meredith Palmer?",
+        "alternativas": [
+          "Água",
+          "Vodca",
+          "Vitamina de banana",
+          "Leite"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "No episódio 9 da segunda temporada, qual personagem realiza uma festa de Natal desastrosa?",
+        "alternativas": [
+          "Pam Beesly",
+          "Angela Martin",
+          "Michael Scott",
+          "Kelly Kapoor"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "'I talk a lot so i've learned to tune myself out' é a frase icônica de qual personagem?",
+        "alternativas": [
+          "Michael Scott",
+          "Kelly Kapoor",
+          "Meredith Palmer",
+          "Dwight Schrute"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Na série, qual personagem é o principal rival do Dwight?",
+        "alternativas": [
+          "Pam Beesly",
+          "Jim Halpert",
+          "Michael Scott",
+          "Meredith Palmer"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "'That's what she said' é a frase icônica de qual personagem?",
+        "alternativas": [
+          "Jim Halpert",
+          "Toby Flenderson",
+          "Andy Bernard",
+          "Michael Scott"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "No final da série com quem Michael Scott decide ficar?",
+        "alternativas": [
+          "Holly Flax",
+          "Erin Hannon",
+          "Jan Levinson",
+          "Pam Beesly"
+        ],
+        "correta": 0
+      }
+    ]
+  },
+  {
+    "titulo": "Quão fã de One Piece você é?",
+    "autor": "Matheus Vitor",
+    "descricao": "Teste seus conhecimentos sobre o anime do pirata que estica:",
+    "perguntas": [
+      {
+        "pergunta": "O mangá de One Piece estreou no Japão em que ano?",
+        "alternativas": [
+          "1998",
+          "1997",
+          "1995",
+          "1992"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Quem Buggy quase executou em Loguetown?",
+        "alternativas": [
+          "Luffy",
+          "Gol D. Roger",
+          "Garp",
+          "Barba Branca"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual era o nome da organização comandada por Crocodile?",
+        "alternativas": [
+          "Baroque Works",
+          "Marineford Alliance",
+          "Shichibukai Society",
+          "Grand Line Pirates"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "A terra natal de Sanji pertence a qual mar?",
+        "alternativas": [
+          "East Blue",
+          "South Blue",
+          "North Blue",
+          "West Blue"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quantos filmes One Piece tem no momento?",
+        "alternativas": [
+          "14 filmes",
+          "13 filmes",
+          "9 filmes",
+          "8 filmes"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual o nome da primeira abertura de One Piece?",
+        "alternativas": [
+          "We can!",
+          "We go!",
+          "We are!",
+          "We won!"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual é o sonho de Luffy?",
+        "alternativas": [
+          "Ser um bravo guerreiro do mar",
+          "Encontrar o All Blue",
+          "Ser o melhor espadachim",
+          "Se tornar o Rei dos Piratas"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Segundo Oda, qual personagem seria brasileiro?",
+        "alternativas": [
+          "Nami",
+          "Luffy",
+          "Zoro",
+          "Sanji"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Quem treinou Zoro durante dois anos?",
+        "alternativas": [
+          "Akainu",
+          "Zorro",
+          "Mihawk",
+          "Moriah"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Com quantos anos Barba Branca morreu?",
+        "alternativas": [
+          "70 anos",
+          "87 anos",
+          "75 anos",
+          "72 anos"
+        ],
+        "correta": 3
+      }
+    ]
+  },
+  {
+    "titulo": "Você conhece os livros juvenis?",
+    "autor": "Maria Rita",
+    "descricao": "Responda às perguntas e descubra o quanto você sabe sobre alguns livros famosinhos:",
+    "perguntas": [
+      {
+        "pergunta": "Qual é o primeiro livro da série 'Percy Jackson e os Olimpianos' de Rick Riordan?",
+        "alternativas": [
+          "A Batalha do Labirinto",
+          "O Mar de Monstros",
+          "O Ladrão de Raios",
+          "A Maldição do Titã"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quem é o autor da série de livros 'Jogos Vorazes'?",
+        "alternativas": [
+          "Suzanne Collins",
+          "Veronica Roth",
+          "J.K. Rowling",
+          "Rick Riordan"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual o nome do shipp da Hermione Granger e Ron Weasley de Harry Potter",
+        "alternativas": [
+          "Ronmione",
+          "Mionron",
+          "Romione",
+          "Granley"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Quantos maridos Evelyn Hugo teve ao longo de sua vida?",
+        "alternativas": [
+          "Sete maridos",
+          "Dois maridos",
+          "Cinco maridos",
+          "Um marido"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual é o estilo de vida de Daisy Jones no início da história?",
+        "alternativas": [
+          "Uma mãe e esposa dedicada",
+          "Uma estudante universitária exemplar",
+          "Uma cantora de sucesso e usuária de drogas",
+          "Uma escritora famosa"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Casey McQuiston ficou famosa por escrever qual livro LGBT+?",
+        "alternativas": [
+          "Para Todos os Garotos que Já Amei",
+          "Red, White & Royal Blue",
+          "O Ódio que Você Semeia",
+          "A Barraca do Beijo"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual é o nome do reino onde a maior parte da série 'Rainha Vermelha' se passa?",
+        "alternativas": [
+          "Norta",
+          "Montfort",
+          "Lakeland",
+          "Pitarus"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual é o nome do clássico da literatura distópica de George Orwell?",
+        "alternativas": [
+          "Dom Quixote",
+          "Orgulho e Preconceito",
+          "Moby Dick",
+          "1984"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Elizabeth Bennet é a personagem principal de qual livro?",
+        "alternativas": [
+          "Orgulho e Preconceito",
+          "Quinze Dias",
+          "Sua Alteza Real",
+          "Conectadas"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual é o título do primeiro romance de Clarice Lispector, publicado em 1943?",
+        "alternativas": [
+          "A Hora da Estrela",
+          "Perto do Coração Selvagem",
+          "A Legião Estrangeira",
+          "Um Sopro de Vida"
+        ],
+        "correta": 1
+      }
+    ]
+  },
+  {
+    "titulo": "Quão fã de Mortal Kombat você é?",
+    "autor": "Matheus Vitor",
+    "descricao": "Responda às perguntas e descubra se você conhece mesmo esse game:",
+    "perguntas": [
+      {
+        "pergunta": "Qual é o nome do feiticeiro maligno que é o principal antagonista de Mortal Kombat?",
+        "alternativas": [
+          "Shao Kahn",
+          "Raiden",
+          "Sub-Zero",
+          "Liu Kang"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "'Get over here' é a fala de quem?",
+        "alternativas": [
+          "Tanya",
+          "Scorpion",
+          "Jade",
+          "Kitana"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Mileena é 'irmã' de quem?",
+        "alternativas": [
+          "Kitana",
+          "Jade",
+          "Sonya Blade",
+          "Tanya"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Quem é o ninja amarelo que é conhecido por seu uso de harpões e seu desejo de vingar a morte de seu clã?",
+        "alternativas": [
+          "Johnny Cage",
+          "Kano",
+          "Sonya Blade",
+          "Scorpion"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Qual o nome verdadeiro de Johnny Cage?",
+        "alternativas": [
+          "Johnny Cage",
+          "Jack Carson",
+          "Jerry Cage",
+          "Johnathan Carlton"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Jerrod é pai de quem?",
+        "alternativas": [
+          "Jack Carson",
+          "Kitana",
+          "Kano",
+          "Jade"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Em qual reino nasceu Shang Tsung?",
+        "alternativas": [
+          "Plano Terreno",
+          "Exoterra",
+          "Edenia",
+          "Submundo"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Qual é o nome da tribo de Nightwolf?",
+        "alternativas": [
+          "Navarro",
+          "Guarani",
+          "Matoka",
+          "Topeka"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Qual dessas raças, hoje, faz parte da Exoterra?",
+        "alternativas": [
+          "Naknada",
+          "Kytinnn",
+          "Tarkata",
+          "Todas as alternativas"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Quais são os personagens secretos do Mortal Kombat 2?",
+        "alternativas": [
+          "Jade, Noob Saibot e Khameleon",
+          "Noob Saibot, Ermac e Rain",
+          "Noob Saibot, Smoke e Jade",
+          "Ermac, Chameleon e Smoke"
+        ],
+        "correta": 2
+      }
+    ]
+  },
+  {
+    "titulo": "Você conhece 'Gravity Falls'?",
+    "autor": "Matheus Vitor",
+    "descricao": "Responda às perguntas e veja se você é um fã de carteirinha dessa animação da Disney:",
+    "perguntas": [
+      {
+        "pergunta": "Como se chamam os gêmeos protagonistas do desenho?",
+        "alternativas": [
+          "Gideon e Pacifica",
+          "Stan e Ford",
+          "Soos e Wendy",
+          "Dipper e Mabel"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "O que é o 'Diário 3'?",
+        "alternativas": [
+          "O diário de aventuras de Dipper",
+          "Um caderno de anotações do tio Stan",
+          "Um livro mágico com segredos da cidade",
+          "O manual de monstros de Grunkle Ford"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "Como se chama o porco da Mabel?",
+        "alternativas": [
+          "Snickers",
+          "Waddles",
+          "Munchy",
+          "Bacon"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual é o nome do episódio final da animação?",
+        "alternativas": [
+          "O Fim Está Próximo",
+          "O Mistério é Resolvido",
+          "Weirdmageddon 3: Aproveite o Fim",
+          "De Volta à Realidade"
+        ],
+        "correta": 2
+      },
+      {
+        "pergunta": "O que acontece com os habitantes de Gravity Falls no episódio 'Aquele que Controla a Madeira'?",
+        "alternativas": [
+          "Eles perdem a memória",
+          "Eles são petrificados",
+          "Eles desaparecem",
+          "Eles se transformam em madeira"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Stanford Pines é qual personagem na animação?",
+        "alternativas": [
+          "Um duende",
+          "O autor dos diários",
+          "O vendedor da cabana",
+          "Pai do Dipper e da Mabel"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Quem é o vilão principal?",
+        "alternativas": [
+          "Bill Cipher",
+          "Gideon Gleeful",
+          "Li'l Gideon",
+          "Grunkle Ford"
+        ],
+        "correta": 0
+      },
+      {
+        "pergunta": "Tio Stan gerencia o que em Gravity Falls?",
+        "alternativas": [
+          "Parque de diversão",
+          "Plantação de milho",
+          "Mercado principal",
+          "Cabana do Mistério"
+        ],
+        "correta": 3
+      },
+      {
+        "pergunta": "Qual é o nome da amiga de Mabel que tem um suéter listrado verde?",
+        "alternativas": [
+          "Wendy",
+          "Candy",
+          "Soos",
+          "Grenda"
+        ],
+        "correta": 1
+      },
+      {
+        "pergunta": "Qual é o nome da loja que o Dipper e os amigos da Wendy invadem na primeira temporada?",
+        "alternativas": [
+          "Gravity Malls",
+          "Dusk 2 Dawn",
+          "The Stranger",
+          "Wallmart"
+        ],
+        "correta": 1
+      }
+    ]
+  }
+]
