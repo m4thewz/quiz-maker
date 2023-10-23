@@ -14,12 +14,12 @@ class QuizPage():
     def gerarElementos(self):
         self.frame = tk.Frame(self.window, bg=BACKGROUND)
         self.frames = [Pergunta((pergunta, i), self.frame, self) for i, pergunta in enumerate(self.perguntas)]
-        tk.Label(self.window, text=self.data["titulo"], font=(FONT, 35), bg=BACKGROUND) .pack(pady=(10, 5))
-        tk.Label(self.frame, text=self.data["descricao"], font=(FONT, 13), bg=BACKGROUND).pack()
-        tk.Label(self.frame, text=f"Por {self.data['autor']}", font=(FONT, 13), bg=BACKGROUND).pack()
-        self.frame.pack(fill="x")
-        tk.Button(self.frame, text="Iniciar", command=self.iniciarQuiz).pack()
-        tk.Button(self.window, text="Anterior", command=lambda: self.root.atualizarPagina(0)).pack()
+        tk.Label(self.window, text=self.data["titulo"], font=(FONT, 35), bg=BACKGROUND).pack(fill="x",padx=30)
+        tk.Label(self.frame, text=self.data["descricao"], font=(FONT, 15), bg=BACKGROUND).pack(fill="x")
+        tk.Label(self.frame, text=f"Por {self.data['autor']}", font=(FONT, 12), bg=BACKGROUND).pack(fill="x")
+        self.frame.pack(fill="x", padx=10)
+        tk.Button(self.frame, text="Iniciar Quiz", font=(FONT, 12), relief="flat", bg=BUTTON_COLOR, command=self.iniciarQuiz).pack(fill="x",pady=(10, 0))
+        tk.Button(self.window, text="Voltar a página inicial", font=(FONT, 12), relief="flat", bg=BUTTON_COLOR, command=lambda: self.root.atualizarPagina(0)).pack(fill="x", padx=10, pady=10)
 
     def iniciarQuiz(self):
         self.mudarPergunta(0)
@@ -51,7 +51,7 @@ class Pergunta():
         for i, alternativa in enumerate(self.pergunta["alternativas"]):
             botao = tk.Label(self.frame, text=alternativa, font=(FONT, 13), borderwidth=2, relief="groove", bg=BUTTON_COLOR)
             botao.configure(highlightbackground = "red", highlightcolor= "red")
-            botao.pack(fill="x",pady=10)
+            botao.pack(fill="x",pady=3)
             botao.bind("<Enter>", lambda e, widget=botao: self.mudarBackground(widget, HOVER_COLOR))
             botao.bind("<Leave>", lambda e, widget=botao: self.mudarBackground(widget, BUTTON_COLOR))
             botao.bind("<Button-1>", lambda event, index=i: self.verificarCorreta(event, index))

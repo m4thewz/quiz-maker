@@ -9,4 +9,5 @@ Explore and create quizzes in a beautiful TKinter project
 - [x] Import and save JSON data
 - [x] Quiz page
 - [ ] Save images
-- [ ] Make it beautiful
+- [x] Make it beautiful
+- [ ] Hover effect in all buttons

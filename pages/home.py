@@ -20,7 +20,7 @@ class HomePage():
         with open("data.json", "r", encoding="utf-8") as file:
             self.quizzes = json.load(file)
         self.exibirQuizzes()
-        botao = tk.Button(self.window, text="Criar um Quiz", relief="flat", bg=BUTTON_COLOR, command=self.abrirNovaJanela)
+        botao = tk.Button(self.window, text="Criar um Quiz", relief="flat", font=(FONT, 15), bg=BUTTON_COLOR, command=self.abrirNovaJanela)
         botao.pack(fill="x", padx=(10, 10), pady=(0, 10))
 
     def exibirQuizzes(self):
@@ -35,9 +35,9 @@ class HomePage():
 
         # botões pra trocar de pagina
         if self.page > 0:
-            tk.Button(self.pageFrame, text="Página Anterior", relief="flat", bg=BUTTON_COLOR, command=lambda: self.mudarPagina("anterior")).grid(row=4, column=0, padx=(10, 0), pady=(5, 10), sticky="w", columnspan=1)
+            tk.Button(self.pageFrame, text="Página Anterior", font=(FONT, 13), relief="flat", bg=BUTTON_COLOR, command=lambda: self.mudarPagina("anterior")).grid(row=4, column=0, padx=(10, 0), pady=(5, 10), sticky="w", columnspan=1)
         if end < len(self.quizzes):
-            tk.Button(self.pageFrame, text="Próxima Página", relief="flat", bg=BUTTON_COLOR, command=lambda: self.mudarPagina("proximo")).grid(row=4, column=2, padx=(0, 10), pady=(5, 10), sticky="e", columnspan=1)
+            tk.Button(self.pageFrame, text="Próxima Página", font=(FONT, 13), relief="flat", bg=BUTTON_COLOR, command=lambda: self.mudarPagina("proximo")).grid(row=4, column=2, padx=(0, 10), pady=(5, 10), sticky="e", columnspan=1)
 
 
     def exibirQuiz(self, quiz, row, column):
@@ -51,7 +51,7 @@ class HomePage():
         labelImagem.image = imagem
         labelImagem.pack(fill="x")
 
-        botao = tk.Button(frame, text=quiz["titulo"], relief="flat", bg=BUTTON_COLOR, command=lambda q=quiz: self.root.trocarQuiz(q))
+        botao = tk.Button(frame, text=quiz["titulo"], relief="flat", font=(FONT, 12), bg=BUTTON_COLOR, command=lambda q=quiz: self.root.trocarQuiz(q))
         botao.pack(fill="x")
 
         labelImagem.bind("<Button-1>", lambda e, q=quiz: self.root.trocarQuiz(q))
