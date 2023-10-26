@@ -1,16 +1,19 @@
 import tkinter as tk
+from tkinter import messagebox, filedialog
+from PIL import Image, ImageTk
 import json
-from tkinter import messagebox
+import os
+import shutil
 from settings import *
 
 class TopLevel:
     def __init__(self, janela, root):
         self.root = root
         self.janela = janela
-        self.janela.title("Criar um Quiz")
+        self.janela.title("Quiz Maker - Criar um Quiz")
         self.janela.resizable(False, False)
         self.janela.configure(bg=BACKGROUND)
-
+        self.arquivo = None # localização da imagem do quiz
         self.perguntas = []
         self.frames = []
         self.alternativasFrames = []
@@ -32,6 +35,10 @@ class TopLevel:
         salvarBotao = tk.Button(frame, text="Salvar", font=(FONT, 15), relief="flat", bg=BUTTON_COLOR, command=self.salvar)
 
         tk.Label(janela, text="Criar um Quiz", bg=BACKGROUND, font=(FONT, 35)).pack()
+        self.imagemFrame = tk.Label(janela, bg=BACKGROUND)
+        self.selecionarImagemBotao = tk.Button(janela, text="Selecione uma imagem de capa", font=(FONT, 15), relief="flat", bg=BUTTON_COLOR, disabledforeground="black", command=self.selecionarImagem)
+        self.imagemFrame.pack(fill="x")
+        self.selecionarImagemBotao.pack(fill="x", padx=10, pady=10)
 
         tk.Label(frame, text="Título:", bg=BACKGROUND, font=(FONT, 15), anchor="w").pack(fill="x")
         self.tituloEntry.pack(fill="x")
@@ -111,7 +118,8 @@ class TopLevel:
             bg=ENTRY_COLOR,
             activebackground=ENTRY_COLOR,
             highlightthickness=0,
-            border=0,
+            border=1,
+            relief="solid",
             indicatoron=0
         )
         menu["menu"].configure(
@@ -160,6 +168,21 @@ class TopLevel:
         if sentido == "anterior" and self.paginaAtual > 0:
             self.paginaAtual -= 1
         self.exibirPergunta()
+    
+    def selecionarImagem(self):
+        arquivo = filedialog.askopenfile(filetypes=[('Arquivos de Imagem', '*.jpg *.png')]) # abre uma janela de seleção de arquivos png e jpg
+        
+        if arquivo:
+            self.arquivo = arquivo.name
+            imagem = ImageTk.PhotoImage(Image.open(arquivo.name).resize((250, 250)))
+            labelImagem = tk.Label(self.imagemFrame, image=imagem, bg=BACKGROUND, border=0)
+            labelImagem.image = imagem
+            labelImagem.pack(fill="x")
+
+            self.selecionarImagemBotao["state"] = "disabled"
+            self.selecionarImagemBotao.pack_forget()
+        else:
+            return
 
     def salvar(self):
         titulo = self.tituloEntry.get()
@@ -173,7 +196,7 @@ class TopLevel:
             "descricao": descricao,
             "perguntas": []
         }
-
+        # verifica se ta tudo preenchido
         for i, (pergunta_entry, alternativas) in enumerate(self.perguntas):
             pergunta = pergunta_entry.get()
             alts = []
@@ -199,6 +222,14 @@ class TopLevel:
             with open('data.json', 'r', encoding="utf-8") as file:
                 jsonData = json.load(file)
 
+            # copia a imagem para a pasta 'images'
+            if self.arquivo:
+                extensao = self.arquivo.split("/")[-1].split(".")[1]
+                arquivo = len(jsonData) + 1
+                caminhoArquivo = f"{os.getcwd()}\images\{arquivo}.{extensao}"
+                shutil.copyfile(self.arquivo, caminhoArquivo)
+                data["imagem"] = f"images/{arquivo}.{extensao}"
+                print('oi')
             jsonData.insert(0, data)
 
             with open('data.json', 'w', encoding="utf-8") as file:

@@ -47,7 +47,7 @@ class HomePage():
         # obtem a imagem (se não tiver definida, define uma de padrao) e a redimensiona
         imagem = ImageTk.PhotoImage(Image.open(quiz.get("imagem", "images/padrao.png")).resize((250, 250))) 
 
-        labelImagem = tk.Label(frame, image=imagem, bg=BACKGROUND)
+        labelImagem = tk.Label(frame, image=imagem, bg=BACKGROUND, border=0)
         labelImagem.image = imagem
         labelImagem.pack(fill="x")
 

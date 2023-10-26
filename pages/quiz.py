@@ -1,5 +1,6 @@
 import tkinter as tk
 from settings import *
+from PIL import Image, ImageTk
 
 class QuizPage():
     def __init__(self, window, data, root):
@@ -14,7 +15,13 @@ class QuizPage():
     def gerarElementos(self):
         self.frame = tk.Frame(self.window, bg=BACKGROUND)
         self.frames = [Pergunta((pergunta, i), self.frame, self) for i, pergunta in enumerate(self.perguntas)]
+
+        imagem = ImageTk.PhotoImage(Image.open(self.data["imagem"]).resize((300, 300))) 
+        labelImagem = tk.Label(self.window, image=imagem, bg=BACKGROUND, border=0)
+        labelImagem.image = imagem
+
         tk.Label(self.window, text=self.data["titulo"], font=(FONT, 35), bg=BACKGROUND).pack(fill="x",padx=30)
+        labelImagem.pack(fill="x", padx=10)
         tk.Label(self.frame, text=self.data["descricao"], font=(FONT, 15), bg=BACKGROUND).pack(fill="x")
         tk.Label(self.frame, text=f"Por {self.data['autor']}", font=(FONT, 12), bg=BACKGROUND).pack(fill="x")
         self.frame.pack(fill="x", padx=10)

@@ -1,64 +1,23 @@
 [
   {
-    "titulo": "Você é flamenguista?",
-    "autor": "Felipe Mantuani",
-    "descricao": "Você é modinha ou raíz?",
-    "perguntas": [
-      {
-        "pergunta": "Quantos títulos Flamengo ganhou em 2019?",
-        "alternativas": [
-          "2",
-          "3",
-          "5",
-          "1"
-        ],
-        "correta": 1
-      },
-      {
-        "pergunta": "Qual título Flamengo ganhou em 2013?",
-        "alternativas": [
-          "Copa do Brasil",
-          "Libertadores",
-          "Brasileirão",
-          "Nenhum"
-        ],
-        "correta": 0
-      }
-    ]
-  },
-  {
     "titulo": "Você é fã dos Jovens Titãs?",
     "autor": "Maria Rita",
+    "imagem": "images/12.png",
     "descricao": "Teste seus conhecimentos sobre os Jovens Titãs",
     "perguntas": [
       {
         "pergunta": "Em que ano o desenho foi lançado?",
-        "alternativas": [
-          "2003",
-          "2000",
-          "2001",
-          "2002"
-        ],
+        "alternativas": ["2003", "2000", "2001", "2002"],
         "correta": 0
       },
       {
         "pergunta": "Qual é o nome do shipp do Mutano e da Ravena?",
-        "alternativas": [
-          "RavenBB",
-          "BBRae",
-          "Ravano",
-          "BBRaven"
-        ],
+        "alternativas": ["RavenBB", "BBRae", "Ravano", "BBRaven"],
         "correta": 1
       },
       {
         "pergunta": "Qual dos personagens é conhecido por seu grito 'Azarath Metrion Zinthos'?",
-        "alternativas": [
-          "Mutano",
-          "Estelar",
-          "Ravena",
-          "Jinx"
-        ],
+        "alternativas": ["Mutano", "Estelar", "Ravena", "Jinx"],
         "correta": 2
       },
       {
@@ -93,12 +52,7 @@
       },
       {
         "pergunta": "Quem é o líder do time?",
-        "alternativas": [
-          "Abelha",
-          "Kid Flash",
-          "Ciborgue",
-          "Robin"
-        ],
+        "alternativas": ["Abelha", "Kid Flash", "Ciborgue", "Robin"],
         "correta": 3
       },
       {
@@ -136,16 +90,12 @@
   {
     "titulo": "Você é fã da Taylor Swift?",
     "autor": "Matheus Vitor",
+    "imagem": "images/11.png",
     "descricao": "Teste seus conhecimentos sobre a diva pop da atualidade",
     "perguntas": [
       {
         "pergunta": "Quantos anos a Taylor Swift tem?",
-        "alternativas": [
-          "30 anos",
-          "31 anos",
-          "33 anos",
-          "28 anos"
-        ],
+        "alternativas": ["30 anos", "31 anos", "33 anos", "28 anos"],
         "correta": 2
       },
       {
@@ -160,12 +110,7 @@
       },
       {
         "pergunta": "O álbum “Folklore” foi lançado em que ano?",
-        "alternativas": [
-          "2019",
-          "2023",
-          "2020",
-          "2021"
-        ],
+        "alternativas": ["2019", "2023", "2020", "2021"],
         "correta": 2
       },
       {
@@ -243,6 +188,7 @@
   {
     "titulo": "Você sabe o básico de TI?",
     "autor": "Maria Rita",
+    "imagem": "images/10.png",
     "descricao": "Teste seus conhecimentos sobre a diva pop da atualidade",
     "perguntas": [
       {
@@ -351,6 +297,7 @@
   {
     "titulo": "Você é um 'marvete'?",
     "autor": "Maria Rita",
+    "imagem": "images/9.png",
     "descricao": "Responda às perguntas e veja quão fã da Marvel você é:",
     "perguntas": [
       {
@@ -365,22 +312,12 @@
       },
       {
         "pergunta": "Em que ano foi lançada a primeira edição dos quadrinhos do Homem-Aranha, criada por Stan Lee e Steve Ditko?",
-        "alternativas": [
-          "1956",
-          "1975",
-          "1962",
-          "1960"
-        ],
+        "alternativas": ["1956", "1975", "1962", "1960"],
         "correta": 2
       },
       {
         "pergunta": "Quem é considerado o ser mais poderoso no universo Marvel?",
-        "alternativas": [
-          "Thanos",
-          "O Tribunal Vivo",
-          "Galactus",
-          "O Vigia"
-        ],
+        "alternativas": ["Thanos", "O Tribunal Vivo", "Galactus", "O Vigia"],
         "correta": 1
       },
       {
@@ -395,12 +332,7 @@
       },
       {
         "pergunta": "Qual é o nome do grupo de super-heróis mutantes liderado pelo Professor Xavier?",
-        "alternativas": [
-          "X-Force",
-          "X-Factor",
-          "X-Men",
-          "X-23"
-        ],
+        "alternativas": ["X-Force", "X-Factor", "X-Men", "X-23"],
         "correta": 2
       },
       {
@@ -435,22 +367,12 @@
       },
       {
         "pergunta": "Qual é o nome da inteligência artificial que ajuda o Homem de Ferro, Tony Stark?",
-        "alternativas": [
-          "Ultron",
-          "Skynet",
-          "HAL 9000",
-          "Jarvis"
-        ],
+        "alternativas": ["Ultron", "Skynet", "HAL 9000", "Jarvis"],
         "correta": 3
       },
       {
         "pergunta": "Nick Fury é diretor de qual organização de espionagem e inteligência?",
-        "alternativas": [
-          "AIM",
-          "SWORD",
-          "SHIELD",
-          "HYDRA"
-        ],
+        "alternativas": ["AIM", "SWORD", "SHIELD", "HYDRA"],
         "correta": 2
       }
     ]
@@ -458,16 +380,12 @@
   {
     "titulo": "Você conhece culinária do Brasil?",
     "autor": "Maria Rita",
+    "imagem": "images/8.png",
     "descricao": "Responda às perguntas e veja se você conhece a culinária de seu país:",
     "perguntas": [
       {
         "pergunta": "Qual é o nome do prato brasileiro feito com peixe cozido em um molho de leite de coco, azeite de dendê, pimenta e temperos?",
-        "alternativas": [
-          "Acarajé",
-          "Moqueca",
-          " Feijoada",
-          "Vatapá"
-        ],
+        "alternativas": ["Acarajé", "Moqueca", " Feijoada", "Vatapá"],
         "correta": 1
       },
       {
@@ -482,32 +400,17 @@
       },
       {
         "pergunta": "Pão de Queijo é uma comida típica de qual estado brasileiro?",
-        "alternativas": [
-          "Minas Gerais",
-          "Piauí",
-          "Rio de Janeiro",
-          "Rondônia"
-        ],
+        "alternativas": ["Minas Gerais", "Piauí", "Rio de Janeiro", "Rondônia"],
         "correta": 0
       },
       {
         "pergunta": "Qual é a bebida tradicional da culinária brasileira, feita a partir da extração do suco de cana-de-açúcar?",
-        "alternativas": [
-          "Cerveja",
-          "Café",
-          "Água de coco",
-          " Caipirinha"
-        ],
+        "alternativas": ["Cerveja", "Café", "Água de coco", " Caipirinha"],
         "correta": 3
       },
       {
         "pergunta": "Qual prato brasileiro é feito a partir de pedaços de carne bovina, geralmente servido em espetos e acompanhado por farofa e molho à base de vinagrete?",
-        "alternativas": [
-          "Acarajé",
-          "Moqueca",
-          "Churrasco",
-          "Vatapá"
-        ],
+        "alternativas": ["Acarajé", "Moqueca", "Churrasco", "Vatapá"],
         "correta": 2
       },
       {
@@ -542,12 +445,7 @@
       },
       {
         "pergunta": "Qual é o nome da carne de porco frita e temperada, muito apreciada na culinária do Centro-Oeste?",
-        "alternativas": [
-          "Torresmo",
-          "Costela",
-          "Carne-seca",
-          "Linguiça"
-        ],
+        "alternativas": ["Torresmo", "Costela", "Carne-seca", "Linguiça"],
         "correta": 2
       },
       {
@@ -565,6 +463,7 @@
   {
     "titulo": "Você é fã de Jujutsu Kaisen?",
     "autor": "Matheus Vitor",
+    "imagem": "images/7.png",
     "descricao": "Responda às perguntas e veja se você conhece JJK:",
     "perguntas": [
       {
@@ -611,7 +510,7 @@
         "pergunta": "Qual é a técnica inata de Megumi Fushiguro?",
         "alternativas": [
           "Manipulação de Sangue",
-          "Técnica das Dez Sombra",
+          "Técnica das Dez Sombras",
           "Ilimitado",
           "Transfiguração Ociosa"
         ],
@@ -672,16 +571,12 @@
   {
     "titulo": "Você é bom em História?",
     "autor": "Maria Rita",
+    "imagem": "images/6.png",
     "descricao": "Teste seus conhecimentos sobre alguns fatos históricos importantes:",
     "perguntas": [
       {
         "pergunta": "Em que ano a Primeira Guerra Mundial começou?",
-        "alternativas": [
-          "1914",
-          "1920",
-          "1919",
-          "1913"
-        ],
+        "alternativas": ["1914", "1920", "1919", "1913"],
         "correta": 0
       },
       {
@@ -706,12 +601,7 @@
       },
       {
         "pergunta": "Em que ano ocorreu a Revolução Francesa?",
-        "alternativas": [
-          "1789",
-          "1804",
-          "1976",
-          "1872"
-        ],
+        "alternativas": ["1789", "1804", "1976", "1872"],
         "correta": 0
       },
       {
@@ -726,32 +616,17 @@
       },
       {
         "pergunta": "Qual nação apoiou o regime de Fidel Castro durante a Guerra Fria?",
-        "alternativas": [
-          "China",
-          "França",
-          "União Soviética",
-          "EUA"
-        ],
+        "alternativas": ["China", "França", "União Soviética", "EUA"],
         "correta": 2
       },
       {
         "pergunta": "Em que ano a Muralha da China foi construída?",
-        "alternativas": [
-          "221 a.C.",
-          "800 d.C.",
-          "1100 d.C.",
-          "400 a.C."
-        ],
+        "alternativas": ["221 a.C.", "800 d.C.", "1100 d.C.", "400 a.C."],
         "correta": 0
       },
       {
         "pergunta": "Em que ano ocorreu o suicídio de Getúlio Vargas",
-        "alternativas": [
-          "1953",
-          "1954",
-          "1960",
-          "1961"
-        ],
+        "alternativas": ["1953", "1954", "1960", "1961"],
         "correta": 1
       },
       {
@@ -766,12 +641,7 @@
       },
       {
         "pergunta": "Quando ocorreu a 'Queda da Bolsa de Nova York' que desencadeou a Grande Depressão?",
-        "alternativas": [
-          "1932",
-          "1940",
-          "1926",
-          "1930"
-        ],
+        "alternativas": ["1932", "1940", "1926", "1930"],
         "correta": 3
       }
     ]
@@ -779,16 +649,12 @@
   {
     "titulo": "Quão fã de The Office você é?",
     "autor": "Maria Rita",
+    "imagem": "images/5.png",
     "descricao": "Teste seus conhecimentos sobre a série 'The Office':",
     "perguntas": [
       {
         "pergunta": "Em que ano a série estreou?",
-        "alternativas": [
-          "2010",
-          "2003",
-          "2005",
-          "2012"
-        ],
+        "alternativas": ["2010", "2003", "2005", "2012"],
         "correta": 2
       },
       {
@@ -823,12 +689,7 @@
       },
       {
         "pergunta": "Qual é a bebida favorita de Meredith Palmer?",
-        "alternativas": [
-          "Água",
-          "Vodca",
-          "Vitamina de banana",
-          "Leite"
-        ],
+        "alternativas": ["Água", "Vodca", "Vitamina de banana", "Leite"],
         "correta": 1
       },
       {
@@ -886,26 +747,17 @@
   {
     "titulo": "Quão fã de One Piece você é?",
     "autor": "Matheus Vitor",
+    "imagem": "images/4.png",
     "descricao": "Teste seus conhecimentos sobre o anime do pirata que estica:",
     "perguntas": [
       {
         "pergunta": "O mangá de One Piece estreou no Japão em que ano?",
-        "alternativas": [
-          "1998",
-          "1997",
-          "1995",
-          "1992"
-        ],
+        "alternativas": ["1998", "1997", "1995", "1992"],
         "correta": 1
       },
       {
         "pergunta": "Quem Buggy quase executou em Loguetown?",
-        "alternativas": [
-          "Luffy",
-          "Gol D. Roger",
-          "Garp",
-          "Barba Branca"
-        ],
+        "alternativas": ["Luffy", "Gol D. Roger", "Garp", "Barba Branca"],
         "correta": 0
       },
       {
@@ -920,32 +772,17 @@
       },
       {
         "pergunta": "A terra natal de Sanji pertence a qual mar?",
-        "alternativas": [
-          "East Blue",
-          "South Blue",
-          "North Blue",
-          "West Blue"
-        ],
+        "alternativas": ["East Blue", "South Blue", "North Blue", "West Blue"],
         "correta": 2
       },
       {
         "pergunta": "Quantos filmes One Piece tem no momento?",
-        "alternativas": [
-          "14 filmes",
-          "13 filmes",
-          "9 filmes",
-          "8 filmes"
-        ],
+        "alternativas": ["14 filmes", "13 filmes", "9 filmes", "8 filmes"],
         "correta": 0
       },
       {
         "pergunta": "Qual o nome da primeira abertura de One Piece?",
-        "alternativas": [
-          "We can!",
-          "We go!",
-          "We are!",
-          "We won!"
-        ],
+        "alternativas": ["We can!", "We go!", "We are!", "We won!"],
         "correta": 2
       },
       {
@@ -960,32 +797,17 @@
       },
       {
         "pergunta": "Segundo Oda, qual personagem seria brasileiro?",
-        "alternativas": [
-          "Nami",
-          "Luffy",
-          "Zoro",
-          "Sanji"
-        ],
+        "alternativas": ["Nami", "Luffy", "Zoro", "Sanji"],
         "correta": 1
       },
       {
         "pergunta": "Quem treinou Zoro durante dois anos?",
-        "alternativas": [
-          "Akainu",
-          "Zorro",
-          "Mihawk",
-          "Moriah"
-        ],
+        "alternativas": ["Akainu", "Zorro", "Mihawk", "Moriah"],
         "correta": 2
       },
       {
         "pergunta": "Com quantos anos Barba Branca morreu?",
-        "alternativas": [
-          "70 anos",
-          "87 anos",
-          "75 anos",
-          "72 anos"
-        ],
+        "alternativas": ["70 anos", "87 anos", "75 anos", "72 anos"],
         "correta": 3
       }
     ]
@@ -993,6 +815,7 @@
   {
     "titulo": "Você conhece os livros juvenis?",
     "autor": "Maria Rita",
+    "imagem": "images/3.png",
     "descricao": "Responda às perguntas e descubra o quanto você sabe sobre alguns livros famosinhos:",
     "perguntas": [
       {
@@ -1017,12 +840,7 @@
       },
       {
         "pergunta": "Qual o nome do shipp da Hermione Granger e Ron Weasley de Harry Potter",
-        "alternativas": [
-          "Ronmione",
-          "Mionron",
-          "Romione",
-          "Granley"
-        ],
+        "alternativas": ["Ronmione", "Mionron", "Romione", "Granley"],
         "correta": 2
       },
       {
@@ -1057,12 +875,7 @@
       },
       {
         "pergunta": "Qual é o nome do reino onde a maior parte da série 'Rainha Vermelha' se passa?",
-        "alternativas": [
-          "Norta",
-          "Montfort",
-          "Lakeland",
-          "Pitarus"
-        ],
+        "alternativas": ["Norta", "Montfort", "Lakeland", "Pitarus"],
         "correta": 0
       },
       {
@@ -1100,46 +913,27 @@
   {
     "titulo": "Quão fã de Mortal Kombat você é?",
     "autor": "Matheus Vitor",
+    "imagem": "images/2.png",
     "descricao": "Responda às perguntas e descubra se você conhece mesmo esse game:",
     "perguntas": [
       {
         "pergunta": "Qual é o nome do feiticeiro maligno que é o principal antagonista de Mortal Kombat?",
-        "alternativas": [
-          "Shao Kahn",
-          "Raiden",
-          "Sub-Zero",
-          "Liu Kang"
-        ],
+        "alternativas": ["Shao Kahn", "Raiden", "Sub-Zero", "Liu Kang"],
         "correta": 0
       },
       {
         "pergunta": "'Get over here' é a fala de quem?",
-        "alternativas": [
-          "Tanya",
-          "Scorpion",
-          "Jade",
-          "Kitana"
-        ],
+        "alternativas": ["Tanya", "Scorpion", "Jade", "Kitana"],
         "correta": 1
       },
       {
         "pergunta": "Mileena é 'irmã' de quem?",
-        "alternativas": [
-          "Kitana",
-          "Jade",
-          "Sonya Blade",
-          "Tanya"
-        ],
+        "alternativas": ["Kitana", "Jade", "Sonya Blade", "Tanya"],
         "correta": 0
       },
       {
         "pergunta": "Quem é o ninja amarelo que é conhecido por seu uso de harpões e seu desejo de vingar a morte de seu clã?",
-        "alternativas": [
-          "Johnny Cage",
-          "Kano",
-          "Sonya Blade",
-          "Scorpion"
-        ],
+        "alternativas": ["Johnny Cage", "Kano", "Sonya Blade", "Scorpion"],
         "correta": 3
       },
       {
@@ -1154,32 +948,17 @@
       },
       {
         "pergunta": "Jerrod é pai de quem?",
-        "alternativas": [
-          "Jack Carson",
-          "Kitana",
-          "Kano",
-          "Jade"
-        ],
+        "alternativas": ["Jack Carson", "Kitana", "Kano", "Jade"],
         "correta": 1
       },
       {
         "pergunta": "Em qual reino nasceu Shang Tsung?",
-        "alternativas": [
-          "Plano Terreno",
-          "Exoterra",
-          "Edenia",
-          "Submundo"
-        ],
+        "alternativas": ["Plano Terreno", "Exoterra", "Edenia", "Submundo"],
         "correta": 0
       },
       {
         "pergunta": "Qual é o nome da tribo de Nightwolf?",
-        "alternativas": [
-          "Navarro",
-          "Guarani",
-          "Matoka",
-          "Topeka"
-        ],
+        "alternativas": ["Navarro", "Guarani", "Matoka", "Topeka"],
         "correta": 2
       },
       {
@@ -1207,6 +986,7 @@
   {
     "titulo": "Você conhece 'Gravity Falls'?",
     "autor": "Matheus Vitor",
+    "imagem": "images/1.png",
     "descricao": "Responda às perguntas e veja se você é um fã de carteirinha dessa animação da Disney:",
     "perguntas": [
       {
@@ -1231,12 +1011,7 @@
       },
       {
         "pergunta": "Como se chama o porco da Mabel?",
-        "alternativas": [
-          "Snickers",
-          "Waddles",
-          "Munchy",
-          "Bacon"
-        ],
+        "alternativas": ["Snickers", "Waddles", "Munchy", "Bacon"],
         "correta": 1
       },
       {
@@ -1291,12 +1066,7 @@
       },
       {
         "pergunta": "Qual é o nome da amiga de Mabel que tem um suéter listrado verde?",
-        "alternativas": [
-          "Wendy",
-          "Candy",
-          "Soos",
-          "Grenda"
-        ],
+        "alternativas": ["Wendy", "Candy", "Soos", "Grenda"],
         "correta": 1
       },
       {
