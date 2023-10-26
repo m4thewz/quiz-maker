@@ -1,5 +1,6 @@
 import tkinter as tk
 import json
+from PIL import Image, ImageTk
 from pages.home import HomePage
 from pages.quiz import QuizPage
 from settings import *
@@ -10,6 +11,7 @@ class Quiz():
         self.janela = tk.Tk()
         self.janela.resizable(False, False)
         self.janela.title("Quiz Maker")
+        self.janela.wm_iconphoto(True, ImageTk.PhotoImage(Image.open("icon.png").resize((32,32))))
         self.janela.configure(bg=BACKGROUND)
         # self.janela.geometry("600x700")
         self.data = []
