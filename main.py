@@ -13,7 +13,6 @@ class Quiz():
         self.janela.title("Quiz Maker")
         self.janela.wm_iconphoto(True, ImageTk.PhotoImage(Image.open("icon.png").resize((32,32))))
         self.janela.configure(bg=BACKGROUND)
-        # self.janela.geometry("600x700")
         self.data = []
         self.carregarJSON()
         # Obtem todas as paginas que pode ser exibidas

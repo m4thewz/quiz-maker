@@ -41,6 +41,7 @@ class HomePage():
 
 
     def exibirQuiz(self, quiz, row, column):
+        # cada quiz e sua imagem
         frame = tk.Frame(self.pageFrame, bg=BACKGROUND)
         frame.grid(row=row, column=column, padx=10, pady=10)
 
@@ -71,9 +72,3 @@ class HomePage():
             widget.destroy()
     def abrirNovaJanela(self):
         TopLevel(tk.Toplevel(), self)
-    
-if __name__ == "__main__":
-    window = tk.Tk()
-    app = HomePage(window, None)
-    app.gerarElementos()
-    window.mainloop()

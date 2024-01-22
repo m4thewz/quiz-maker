@@ -13,6 +13,7 @@ class QuizPage():
         self.corretas = 0
 
     def gerarElementos(self):
+        # gera a pagina toda
         self.frame = tk.Frame(self.window, bg=BACKGROUND)
         self.frames = [Pergunta((pergunta, i), self.frame, self) for i, pergunta in enumerate(self.perguntas)]
 
@@ -55,9 +56,9 @@ class Pergunta():
     def gerarElementos(self):
         self.alternativasWidgets = []
         tk.Label(self.frame, text=self.pergunta["pergunta"], font=(FONT, 15), bg=BACKGROUND).pack()
+        # adicona todas as alternativas na tela
         for i, alternativa in enumerate(self.pergunta["alternativas"]):
             botao = tk.Label(self.frame, text=alternativa, font=(FONT, 13), borderwidth=2, relief="groove", bg=BUTTON_COLOR)
-            botao.configure(highlightbackground = "red", highlightcolor= "red")
             botao.pack(fill="x",pady=3)
             botao.bind("<Enter>", lambda e, widget=botao: self.mudarBackground(widget, HOVER_COLOR))
             botao.bind("<Leave>", lambda e, widget=botao: self.mudarBackground(widget, BUTTON_COLOR))
@@ -72,9 +73,11 @@ class Pergunta():
             self.mudarBackground(e.widget, WRONG_COLOR)
         else:
             self.page.corretas += 1
+        # espera 0.3 segundos pra mudar a pagina
         self.page.window.after(300, lambda: self.page.mudarPergunta(self.page.proximaPergunta + 1))
 
     def mudarBackground(self, widget, cor="#ffffff"):
+        # muda a cor do widget
         if widget["background"] not in [WRONG_COLOR, CORRECT_COLOR]:
             widget["background"] = cor
 

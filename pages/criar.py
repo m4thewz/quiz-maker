@@ -20,6 +20,7 @@ class TopLevel:
         self.corretas = []
         self.paginaAtual = 0
         
+        # adiciona todos elementos e frames da tela
         frame = tk.Frame(janela, width=100, bg=BACKGROUND)
         self.framePerguntas = tk.Frame(frame, bg=BACKGROUND)
 
@@ -128,7 +129,6 @@ class TopLevel:
         )
         menu.pack(fill="x", pady=(0,10))
 
-        # self.atualizarCorreta()
         self.trocarPagina("proximo")
         
 
@@ -170,7 +170,8 @@ class TopLevel:
         self.exibirPergunta()
     
     def selecionarImagem(self):
-        arquivo = filedialog.askopenfile(filetypes=[('Arquivos de Imagem', '*.jpg *.png')]) # abre uma janela de seleção de arquivos png e jpg
+        # abre uma janela de seleção de arquivos png e jpg
+        arquivo = filedialog.askopenfile(filetypes=[('Arquivos de Imagem', '*.jpg *.png')])
         
         if arquivo:
             self.arquivo = arquivo.name
@@ -179,7 +180,6 @@ class TopLevel:
             labelImagem.image = imagem
             labelImagem.pack(fill="x")
 
-            self.selecionarImagemBotao["state"] = "disabled"
             self.selecionarImagemBotao.pack_forget()
         else:
             return
@@ -244,8 +244,3 @@ class TopLevel:
             messagebox.showerror(title="Erro", message="Preencha todos os campos.")
         print(data)
         
-
-if __name__ == "__main__":
-    window = tk.Tk()
-    app = TopLevel(window)
-    window.mainloop()
